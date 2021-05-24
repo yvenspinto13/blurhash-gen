@@ -1,0 +1,13 @@
+{
+  "name": "Blurhash Generator",
+  "version": "1.0",
+  "description": "Generate blurhash for images",
+  "manifest_version": 2,
+  "permissions": ["contextMenus", "storage", "activeTab"],
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": ["background.js", "runtime.js"]
+  }
+}
